@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<head>
+    <title> Philippines Travel Guide </title>
+</head>
+
+     <style> 
+        body { 
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #a9d8ff;
+        } 
+ 
+        h1 { 
+            text-align: center; 
+            color: #244a91; 
+            float: center;
+            font-size: xx-large;
+        } 
+ 
+        /* MAIN MENU */ 
+        .menu { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 15px; 
+            flex-wrap: wrap; 
+            background-color: #dce8ff; 
+            padding: 20px; 
+            border-radius: 12px; 
+        } 
+ 
+        /* MENU ITEMS */ 
+        .menu-item { 
+            position: relative; 
+        } 
+ 
+        .menu a { 
+            display: block; 
+            background-color: #244a91; 
+            color: white; 
+            padding: 12px 20px; 
+            text-decoration: none; 
+            border-radius: 10px; 
+            transition: 1.5s ease; 
+        } 
+ 
+        /* HOVER EFFECT */ 
+        .menu a:hover { 
+            background-color: #e5a72c; 
+            color: #222; 
+            transform: translateY(-5px); 
+            box-shadow: 0 0 10px #66148b, 
+                        0 0 25px #0ff; 
+        } 
+ 
+        /* SUBMENU */ 
+        .submenu { 
+            display: none; 
+            position: absolute; 
+            top: 100%; 
+            left: 0; 
+            min-width: 200px; 
+            background-color: #dce8ff; 
+            padding: 15px; 
+            border-radius: 5px; 
+            z-index: 10; 
+            float: center;
+        } 
+ 
+        /* SHOW SUBMENU WHEN HOVERED */ 
+        .menu-item:hover .submenu { 
+            display: block; 
+        } 
+ 
+        /* SUBMENU LINKS */ 
+        .submenu a { 
+            background-color: #4169a1; 
+            margin: 10px 0; 
+            border-radius: 5px; 
+            float: center;
+        } 
+ 
+        .submenu a:hover { 
+            background-color: #e5a72c; 
+            transform: translateX(5px); 
+        } 
+
+
+        h3{
+            font-size: larger;
+            padding: 5%;
+            text-align: center;
+            background-color: rgb(128, 182, 204);
+            border-radius: 5%;
+            float: center;
+        }
+
+        iframe { 
+            border: 5px solid white; 
+            border-radius: 15px; 
+        } 
+ 
+        button { 
+            padding: 10px 20px; 
+            margin: 5px; 
+            background-color: navy; 
+            color: white; 
+            border: none; 
+            cursor: pointer; 
+            border-radius: 5px; 
+        } 
+ 
+        button:hover { 
+            background-color: orange;
+        }
+
+    </style> 
+</head> 
+ 
+<body> 
+
+     <img src="PH.png" width="26%" height="auto" float="center" >
+         <img src="Plan Your Trip With Us!.png" width="70%" height="10%" float="center">
+
+
+
+        <hr>
+        <br>
+        <br>
+
+            <h1> 𝕻𝖍𝖎𝖑𝖎𝖕𝖕𝖎𝖓𝖊 𝕿𝖗𝖆𝖛𝖊𝖑 𝕲𝖚𝖎𝖉𝖊 </h1> 
+        <br>
+
+            <nav class="menu"> 
+        
+                  <!-- HOME --> 
+                <div class="menu-item"> 
+                    <a href="TRAVELguide(ST).html">Home</a> 
+                </div>
+        
+
+                <!-- ABOUT --> 
+                <div class="menu-item"> 
+                    <a href="#">About</a> 
+                    <div class="submenu"> 
+                        <a href="#"> Learn More about Philippines</a> 
+                        <a href="#"> Learn the Culture</a> 
+                    </div> 
+                </div> 
+        
+
+                <!-- GALLERY --> 
+                <div class="menu-item"> 
+                    <a href="LEARNPH.html">Gallery</a> 
+                    <div class="submenu"> 
+                        <a href="LearnPlaces.html"> Learn more! </a> 
+                    </div> 
+                </div> 
+        
+
+                <!-- CONTACT --> 
+                <div class="menu-item"> 
+                    <a href="Contact.html">Contact</a> 
+
+                </div> 
+        
+            </nav> 
+
+
+ 
+</body>
+</html>
