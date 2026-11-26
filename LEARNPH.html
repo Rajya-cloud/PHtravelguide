@@ -1,0 +1,82 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title> Choose your destination!!</title> 
+ 
+<style> 
+ 
+    body { 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center; 
+        background-image: url(https://i.pinimg.com/736x/c1/a5/b4/c1a5b4cd3fc5ac9ef52ab4fbfef1795f.jpg);
+        background-size: 100%;
+    } 
+ 
+    h1 { 
+        color: rgb(255, 239, 145); 
+        background-color: rgb(156, 34, 34);
+    } 
+ 
+    img { 
+        width: 500px; 
+        height: 300px; 
+        border: 50px solid white; 
+        border-radius: 15px; 
+ 
+        /* Smooth effect */ 
+        transition: 0.5s; 
+ 
+        /* Default filter */ 
+        filter: none; 
+    } 
+ 
+    /* Zoom when hovering */ 
+    img:hover { 
+        transform: scale(1.05); 
+    } 
+ 
+    button { 
+        padding: 10px 20px; 
+        margin: 5px; 
+        cursor: pointer; 
+        background-color: rgb(247, 209, 88); 
+        color: rgb(11, 74, 116); 
+        border: 10px dotted; 
+        border-radius: 10px; 
+    } 
+ 
+    button:hover { 
+        background-color: rgb(230, 207, 166); 
+    } 
+ 
+</style> 
+ 
+</head> 
+ 
+<body> 
+ 
+<script> 
+ 
+    document.writeln("<h1> Explore the Land of the Philippines!!</h1>"); 
+    
+        document.writeln("<img id='gallery' src='https://i.pinimg.com/736x/21/d6/a7/21d6a7cf0bdc3976ae7291fdbbfe52e3.jpg'>"); 
+        
+            document.writeln("<br><br>"); 
+                document.writeln("<button onclick=\"document.getElementById('gallery').src='https://i.pinimg.com/1200x/0a/88/6d/0a886d02026874e2a10e998ebc2c23dc.jpg'\"> Banaue Rice Terraces</button>");
+                document.writeln("<button onclick=\"document.getElementById('gallery').src='https://i.pinimg.com/736x/82/f7/62/82f762ea45704e67181ff354e302e51b.jpg'\"> Puerto Princesa, Palawan</button>"); 
+                document.writeln("<button onclick=\"document.getElementById('gallery').src='https://i.pinimg.com/736x/db/ad/32/dbad32d504db6a7180eebd9e68fc9aa5.jpg'\"> Aklan, Boracay </button>");                 
+                document.writeln("<button onclick=\"document.getElementById('gallery').src='https://i.pinimg.com/736x/92/88/83/9288834dbf57e96fd413cd19b3a75f12.jpg'\"> Intramuros </button>"); 
+
+
+
+            document.writeln("<br><br>"); 
+                document.writeln("<button onclick=\"document.getElementById('gallery').style.filter='blur(5px)'\">BLUR</button>"); 
+        
+                    document.writeln("<button onclick=\"document.getElementById('gallery').style.filter='grayscale(100%)'\">GRAYSCALE</button>"); 
+                    document.writeln("<button onclick=\"document.getElementById('gallery').style.filter='brightness(150%)'\">BRIGHTNESS</button>"); 
+                    document.writeln("<button onclick=\"document.getElementById('gallery').style.filter='sepia(100%)'\">SEPIA</button>"); 
+                    document.writeln("<button onclick=\"document.getElementById('gallery').style.filter='none'\">NORMAL</button>");
+
+</script> 
+</body> 
+</html> 
